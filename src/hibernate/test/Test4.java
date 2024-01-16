@@ -1,11 +1,9 @@
-package hibernate.java;
+package hibernate.test;
 
-import hibernate.java.entity.Employee;
+import hibernate.test.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
-import java.util.List;
 
 public class Test4 {
     public static void main(String[] args) {
