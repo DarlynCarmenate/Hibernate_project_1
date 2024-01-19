@@ -25,7 +25,8 @@ public class Department {
 
     @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.DETACH,
             CascadeType.MERGE, CascadeType.REFRESH},
-            mappedBy = "department")
+            mappedBy = "department",
+            fetch = FetchType.EAGER)
     private List<Employee> emps;
 
     public Department() {
